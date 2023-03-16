@@ -1,0 +1,8 @@
+CREATE TABLE employees(
+	id int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name varchar(100) NOT NULL,
+    age int(10) NOT NULL,
+    contry varchar(100) NOT NULL,
+    position varchar(100) NOT NULL,
+    wage int(10) NOT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
